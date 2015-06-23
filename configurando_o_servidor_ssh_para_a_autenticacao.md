@@ -29,15 +29,7 @@ Warning: Permanently added '10.10.5.2' (ECDSA) to the list of known hosts.
 root@10.10.5.2's password: 
 Welcome to Ubuntu 14.04.1 LTS (GNU/Linux 3.13.0-43-generic x86_64)
 
- * Documentation:  https://help.ubuntu.com/
-
-533 packages can be updated.
-277 updates are security updates.
-
-*** /dev/sda1 will be checked for errors at next reboot ***
-*** /dev/sda5 should be checked for errors ***
-*** /dev/sdd1 should be checked for errors ***
-
-Last login: Wed May 27 10:35:50 2015 from nblucas.local
-
+root@root-server:~# 
 ```
+
+Feito isso, teremos que adicionar a chave apublic 
