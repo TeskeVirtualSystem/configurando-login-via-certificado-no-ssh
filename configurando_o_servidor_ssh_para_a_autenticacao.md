@@ -32,4 +32,4 @@ Welcome to Ubuntu 14.04.1 LTS (GNU/Linux 3.13.0-43-generic x86_64)
 root@root-server:~# 
 ```
 
-Feito isso, teremos que adicionar a chave apublic 
+Feito isso, teremos que adicionar a chave publica  ao arquivo `~/.ssh/authorized_keys`
