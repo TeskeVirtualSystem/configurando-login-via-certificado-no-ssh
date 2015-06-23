@@ -14,7 +14,7 @@ Neste caso, a `chave pública` é :
 ssh-rsa AAAAB3NBBBC1yc2EAAAADAQABAAABAQDFH/Z3Lh3a67/XgRedfysEDC1G3Qn/ttZZRq1dp0bXSKyTehpQHGymk5a2+F6F5LzEYL0AAAi2aFl56bqTDo6/VRgkOvXw6EWgJAkIGm0Prh2uSH5cobFSHdA9L4J7U62pLfzZINuBEkgCBrFo+zAvXF8e7BBOdWc/NSAAABRT/A3NLmAAAIv7PPREFETCHgeQbqforbTKOAZ8mEUtctS2HFVLMZuXDhuVJT72YcR2h9faVTkFHERY7RajwBl6eFA7N/sxMjqt+R2qcZZZZZZtOSuxuUvbn/nOwR8LLO0sngefIzQhpwtmUOfEs94060ognPe05s/HUEBRBR tvs@tablucas
 ```
 
-# Acessando servidor e configurando chave pública
+## Acessando servidor e configurando chave pública
 
 
 Agora precisamos acessar o servidor alvo usando uma autenticaçao de senha normal.
@@ -38,7 +38,7 @@ Feito isso, teremos que adicionar a chave publica  ao arquivo `~/.ssh/authorized
     
 Ou editando o arquivo e adicionando a linha. Dependendo de como você copiou, pode ser que a sentença esteja com quebras de linha. Todo trecho desde **ssh-rsa** até **usuario@maquina** deverá estar em apenas uma linha. No arquivo `authorized_keys` será uma chave por linha.
 
-# Testando login por certificado
+## Testando login por certificado
 
 Agora é a hora de testarmos o login via certificado! Para testar basta acessar novamente o ssh da mesma maneira:
 
