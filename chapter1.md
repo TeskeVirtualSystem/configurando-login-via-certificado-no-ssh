@@ -1,5 +1,3 @@
-# Verificando a existência de uma chave RSA local
-
 # Criando a chave RSA local
 
 O primeiro passo para a autenticação via certificado é criar uma chave SSH local. Para isso, deve-se executar o seguinte comando em uma janela terminal:
