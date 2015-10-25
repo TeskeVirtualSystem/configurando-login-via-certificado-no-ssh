@@ -1,0 +1,14 @@
+{
+    "gitbook"   : ">=2.0.0",
+    "title" : "Configurando login por certificado no SSH",
+    "description" : "Como configurar chave do SSH para acesso autenticação via certificado",
+    "author" : "Lucas Teske",
+    "public" : true,
+    "language" : "pt" ,
+    "plugins": ["autocover"],
+    "pluginsConfig": {
+        "autocover": {
+            "watermark" : "../../baseimages/tvs.svg"
+        }
+    }
+}   
